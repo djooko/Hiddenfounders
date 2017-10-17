@@ -17,6 +17,13 @@ header{ position: relative; color: #FFF;}
 .btn-danger{border-radius:24px; margin-right:2%; margin-bottom:5%;}
 .vinex{background-color:#273042; opacity:.9;}
 .active{border-bottom: 2px solid #dd6561;}
-.wrap{}
-.item{position: relative;width:210px; height:140px; margin: 5% 0% 5% 0% ;} 
+.item{position: relative; width:210px; height:140px; margin: 5% 0% 5% 0%; z-index:1;} 
 .img-item{border-radius: 5px;}
+.item-layer{position: absolute; left: 0px;top: 0px;}
+h4{display:inline-block;}
+.rating{font-size: 14px; color: #ffbc00;}
+.fa-star-o{color:#ffbc00;}
+.fa-angle-right{position: absolute; z-index: 3;top:40%; right:2%; color: #fff;}
+.fa-angle-left{position: absolute; z-index:3; top:40%; left:2%; color: #fff;}
+.fa-heart-o{position: absolute; z-index:3; top:5%; right:3%; color: #fff;}
+.item-img:hover .item-layer{background-color:rgba(3,3,3,0.5);}
