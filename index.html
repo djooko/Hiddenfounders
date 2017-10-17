@@ -9,55 +9,94 @@
 </head>
  <body>
   <div class="container-fluid">
-    <div class="row">
-     <div class="col-md-12">
 
-     <nav class="nav mr-auto">
-      <a class="navbar-brand" href="#">
-       <img src="logo.png" alt="" class="img-fluid">
+  <!--header -->
+
+   <header>
+    <div class="row">
+     <div class="col-md-12 no-padding">
+       <!-- nav -->
+     <nav class="navbar navbar-custom">
+     <div class="container">
+      <a class="navbar-brand float-left" href="#">
+       <img src="img/logo.png" alt="" class="img-fluid logo">
       </a>
         
-        <select class="mr-auto">
-           <option value="">Browse</option>
-           <option value="1">Option #2</option>
-           <option value="2">Option #3</option>
-        </select>
+           <div class = "dropdown float-left">
+              <button type = "button" class = "btn-link dropdown-toggle" data-toggle = "dropdown">
+                 Topics
+               <span class = "caret"></span>
+               </button>
+              <ul class = "dropdown-menu"> 
+                <a class="dropdown-item" href="#">option 1</a>
+                <a class="dropdown-item" href="#">option 2</a>
+              </ul>
 
-        <div class="dropdown">
-         <img class="btn" src="thumbnail.png" alt="dropdown image" class="img-fluid">
-         <ul class="dropdown-menu ml-auto">
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Log Out</a></li>
-         </ul>
         </div>
-     </nav>
+         <div class="dropdown float-right">
+             <button class="btn btn-link dropdown-toggle" type="button" data-toggle="dropdown">
+              <img src="img/profile.jpg" alt=" profile image" class="img-fluid rounded-circle  profile">
+             </button>
+             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+               <li ><a role="menuitem"  href="#">setting</a></li>
+               <li> <a role="menuitem" href="#"> help</a></li>
+               <li class = "divider"></li>
+               <li> <a role="menuitem"  href="#">Logout</a></li>
+             </ul>
+           </div>
 
-        <img src="preview.png" alt=""  class="img-fluid">
-        <h1>Date Night Restaurants</h1>
+       </div>
+     </nav>
+     <!-- end nav -->
+    <div class="bg">
+     <div class="bg-layer">
+      <div class="clearfix">
+
+       <img src="img/bg.jpg" alt="background image"  class="bg-img">
+       <img src="img/datepic.png" alt=""  class="rounded-circle img-fluid mx-sm-auto datepic float-left">
+        <h1 class="">Date Night Restaurants</h1>
         <h3>Best places for a date night in New York City</h3>
         <h4> 6 M FLOWERS</h4>
-         <button class="btn btn-danger img-rounded btn-secondary"> Follow </button>
-
-         <div class="dropdown">
-         Popular
-         <ul class="dropdown-menu">
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-         </ul>
+       </div>
+       <div class="clearfix">
+           <button class="btn btn-danger float-right"> Follow </button>
+       </div>
+       <div class="clearfix">
+       <div class="vinex">
+        <div class = "dropdown float-left">
+          <button type = "button" class = "btn-link dropdown-toggle" data-toggle= "dropdown"> Popular
+           </button>
+          <span class = "caret"></span>
+          <ul class = "dropdown-menu"> 
+            <a class="dropdown-item" href="#">option 1</a>
+            <a class="dropdown-item" href="#">option 2</a>
+          </ul>
         </div>
 
-        <ul>
-        	<li>AFFORDABLE</li>
-        	<li>FANCY</li>
-        	<li>TIPS</li>
-        	<li>CPMMUNITY</li>
-
-        </ul>
-       
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="nav-item active">
+            <a href="#" class="text-danger">AFFORDABLE</a>
+            </li>
+            <li role="presentation" class="nav-item">
+            <a class="nav-link" href="#">FANCY</a>
+            </li>
+            <li role="presentation" class="nav-item">
+            <a  class="nav-link" href="#">TIPS</a></li>
+            <li  role="presentation" class="nav-item">
+            <a class="nav-link" href="#">COMMUNITY</a>
+            </li>
+          </ul>
+          </div>
+        </div>
 
      </div>
     </div>
-    
+    </div>
+   </div>
+ </header>
+
+    <!--main -->
+ 
     <div class="row">
      <div class="col-md-12">
       
