@@ -19,11 +19,12 @@ header{ position: relative; color: #FFF;}
 .active{border-bottom: 2px solid #dd6561;}
 .item{position: relative; width:210px; height:140px; margin: 5% 0% 5% 0%; z-index:1;} 
 .img-item{border-radius: 5px;}
-.item-layer{position: absolute; left: 0px;top: 0px;}
+.item-layer{display: none; position: absolute; left: 0px;top: 0px; background-color:rgba(3,3,3,0.5); z-index: 2;}
 h4{display:inline-block;}
 .rating{font-size: 14px; color: #ffbc00;}
 .fa-star-o{color:#ffbc00;}
 .fa-angle-right{position: absolute; z-index: 3;top:40%; right:2%; color: #fff;}
 .fa-angle-left{position: absolute; z-index:3; top:40%; left:2%; color: #fff;}
 .fa-heart-o{position: absolute; z-index:3; top:5%; right:3%; color: #fff;}
-.item-img:hover .item-layer{background-color:rgba(3,3,3,0.5);}
+.item>img:hover .item-layer{display: block;}
+#map {height: 100%;}
