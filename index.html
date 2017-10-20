@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!--meta -->
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- css -->
+  
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-  <title>IDEADATE</title>
+  
+  <title> IDEADATE </title>
+
 </head>
+
  <body>
-  <div class="container-fluid no-padding">
+  
+ <div class="container-fluid">
+  <div class="row no-gutters">
+   <div class="col-xl-12">
+     <div class="row no-gutters">
+      <div class="col-xl-12">
 
-  <!--header -->
-
-  <div class="row">
-   <div class="col-md-12">
+     <!--header -->
+   
      <header>
+   
        <!-- nav -->
+   
      <nav class="navbar navbar-custom">
-     <div class="container">
-      <a class="navbar-brand float-left" href="#">
-       <img src="img/logo.png" alt="" class="img-fluid logo">
-      </a>
-           <div class = "dropdown float-left">
-              <button type = "button" class = "btn-link dropdown-toggle" data-toggle = "dropdown">
-                 Topics
-               <span class = "caret"></span>
-               </button>
-              <ul class = "dropdown-menu"> 
+      <div class="container">
+       <a class="navbar-brand float-left" href="index.html">
+        <img src="img/logo.png" alt="" class="img-fluid logo">
+       </a>
+
+       <div class = "dropdown float-left drp">
+         <button type = "button" class ="btn-link dropdown-toggle text-white" data-toggle ="dropdown">
+            Browse
+             <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+          </button>
+        <ul class = "dropdown-menu"> 
                 <a class="dropdown-item" href="#">option 1</a>
                 <a class="dropdown-item" href="#">option 2</a>
-              </ul>
-
+          </ul>
         </div>
+         <div class="clearfix">
          <div class="dropdown float-right">
              <button class="btn btn-link dropdown-toggle" type="button" data-toggle="dropdown">
-              <img src="img/profile.jpg" alt=" profile image" class="img-fluid rounded-circle img-rounded  profile">
+              <img src="img/profile.jpg" alt="Profile picture" class="img-fluid rounded-circle img-rounded profile">
+              <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
              </button>
              <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
                <li ><a role="menuitem"  href="#">setting</a></li>
@@ -44,29 +59,41 @@
                <li> <a role="menuitem"  href="#">Logout</a></li>
              </ul>
            </div>
+            <div class="notification float-right ">
+             <i class="fa fa-bell" aria-hidden="true"></i>
+             <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+          </div>
 
        </div>
      </nav>
      <!-- end nav -->
     <div class="bg">
      <div class="bg-layer">
-      <div class="clearfix">
-
+      
+      <div class="clearfix">      
        <img src="img/bg.jpg" alt="background image"  class="bg-img">
-       <img src="img/datepic.png" alt=""  class="img-fluid img-rounded mx-sm-auto datepic float-left">
-        <h1 class="">Date Night Restaurants</h1>
-        <h3>Best places for a date night in New York City</h3>
-        <h4> 6 M FLOWERS</h4>
+       <img src="img/date.jpg" alt="" class="rounded-circle img-thumbnail center-block datepic img-fluid float-left">
+        <div class="title float-left">
+        <h1>Date Night Restaurants</h1>
+        <h5>Best places for a date night in New York City</h5>
+        <h6> 6 M FLOWERS</h6>
+        </div>
        </div>
-       <div class="clearfix">
+         <div class="clearfix">
+         <div class="follow">
+           <span class="float-right">
+             <i class="fa fa-cog fa-2x float-right" aria-hidden="true"></i>
+            </span>
            <button class="btn btn-danger float-right"> Follow </button>
-       </div>
+           </div>
+         </div>
        <div class="clearfix">
        <div class="vinex">
         <div class = "dropdown float-left">
-          <button type = "button" class = "btn-link dropdown-toggle" data-toggle= "dropdown"> Popular
+          <button type = "button" class = "btn-link dropdown-toggle text-white" data-toggle= "dropdown"> Popular
+          <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
            </button>
-          <span class = "caret"></span>
           <ul class = "dropdown-menu"> 
             <a class="dropdown-item" href="#">option 1</a>
             <a class="dropdown-item" href="#">option 2</a>
@@ -86,90 +113,103 @@
             <a class="nav-link" href="#">COMMUNITY</a>
             </li>
           </ul>
-          </div>
         </div>
-
-     </div>
+       </div>
+      </div>
     </div>
-    </div>
-   </div>
- </header>
+  </header>
+ </div>
+</div>
 
-    <!--main -->
- 
-    <div class="row">
-     <div class="col-md-12">
-      
-      <div class="row">
-         <div class="col-md-7">
-          
-           <div class="row"> 
-              <div class="col-md-4 col-sm-6 col-12">
-               <div class="item">
-                <img src="img/pizza.jpeg" alt="" class="img-fluid img-item">
+    <!--Meals presentation -->
+
+      <div class="row no-gutters">
+         <div class="col-xl-7 col-md-12 meals">
+           <div class="row no-gutters">
+               <div class="col-xl-4 col-md-4 col-sm-6 col-12">
+                <div class="item">
+                 <img src="img/grilled-chicken.jpg" alt="grilled chicken" class="img-fluid img-item text-center">
                </div> 
-               <h4>Yumi-Pizza</h4>
+                 <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+                 <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
+                  
+               <h4>grilled chicken</h4>
                <span class="rating"><i class="fa fa-star-o" aria-hidden="true"></i> 5.5
                </span><br>
                <span class="likes">900k likes</span>
               </div>
-              <div class="col-md-4 col-sm-6 col-12">
+
+              <div class="col-xl-4 col-md-4 col-sm-6 col-12">
                <div class="item">
-                <div class="item-layer"></div>
-                 <img src="img/spaghetti.jpg" alt=""  class="img-fluid img-item">
+                <div class="focus-layer img-fluid"></div>
+                 <img src="img/spaghetti.jpg" alt="spaghetti" class="img-fluid img-item text-center">
+                 </div>
                  <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
                  <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
-                 <a href="#like"><i class="fa fa-heart-o fa-lg" aria-hidden="true"></i></a>
-              </div>  
-               <h4>Spaghetti-ita</h4>
+                  <a href="#like"><i class="fa fa-heart-o fa-lg" aria-hidden="true"></i></a>
+               <h4>Spaghetti-it</h4>
                <span class="rating"><i class="fa fa-star-o" aria-hidden="true"></i> 6.5
                </span><br>
                <span class="likes">950k likes</span>
               </div>
-              <div class="col-md-4 col-sm-6 col-12">
+
+              <div class="col-xl-4 col-md-4 col-sm-6 col-12">
                <div class="item">
-                <img src="img/hamburger.jpg" alt="" class="img-fluid img-item">
+                <img src="img/hamburger.jpg" alt="" class="img-fluid img-item text-center">
               </div>
+                <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+                 <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
+                  
                <h4>Humburger</h4>
                <span class="rating"><i class="fa fa-star-o" aria-hidden="true"></i> 5.5
                </span><br>
                <span class="likes">950k likes</span>
               </div>
 
-              <div class="col-md-4 col-sm-6 col-12">
+              <div class="col-xl-4 col-md-4 col-sm-6 col-12">
                <div class="item">
-                <img src="img/spaghetti.jpg" alt=""  class="img-fluid img-item">
+                <img src="img/spaghetti.jpg" alt=""  class="img-fluid img-item text-center">
                </div>
+                 <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+                 <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
+                  
                <h4>Spagetti</h4>
                <span class="rating"><i class="fa fa-star-o" aria-hidden="true"></i> 5.5
                </span><br>
                <span class="likes">800k likes</span>
-              </div> 
-              <div class="col-md-4 col-sm-6 col-12">
-               <div class="item">
-                <img src="img/hamburger.jpg" alt="" class="img-fluid img-item">
+              </div>
+
+              <div class="col-xl-4 col-md-4 col-sm-6 col-12">
+               <div class="item ">
+                <img src="img/hamburger.jpg" alt="" class="img-fluid img-item text-center">
                </div>
+                 <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+                 <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
                 <h4>Humburger</h4>
                <span class="rating"><i class="fa fa-star-o" aria-hidden="true"></i> 5.5
                </span><br>
                <span class="likes">950k likes</span>
               </div>
-              <div class="col-md-4 col-sm-6 col-12">
+
+              <div class="col-xl-4 col-md-4 col-sm-6 col-12">
                <div class="item">
-                <img src="img/pizza.jpeg" alt=""  class="img-fluid img-item">
+                <img src="img/grilled-chicken.jpg" alt="" class="img-fluid img-item text-center">
               </div> 
-                <h4>Pizza</h4>
+                <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+                 <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
+                  
+                <h4>grilled-chicken</h4>
                <span class="rating"><i class="fa fa-star-o" aria-hidden="true"></i> 5.5
                </span><br>
                <span class="likes">900k likes</span>   
-            </div>
-           </div>
-          </div>
+             </div>
+       </div>
+    </div>
 
-         <div class="col-md-5 col-xs-12">
-          <div class="map"></div>
-       <div id="map"></div>
-         <script>
+      <div class="col-lg-5 col-md-12">
+          <div class="map">
+          <div id="map"></div>
+          <script>
 
 		         function initMap() {
 
@@ -216,18 +256,19 @@
 		        {lat: -43.999792, lng: 170.463352}
 		      ]
 		      </script>
-          </div>
-       </div>
-     </div> 
-    </div>   
+           </div>
+         </div> 
 
+       </div>   
 <!-- footer -->
 
-   <footer>
-    	<img src="img/logo.png" alt="" class="img-fluid logo">
-   </footer>
+    <footer>
+    	<img src="img/logo.png" alt="logo" class="img-fluid logo">
+    </footer>
  
+  </div>
  </div>
+</div>
 
   <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
   </script>
