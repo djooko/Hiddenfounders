@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Croissant+One');
 
 body{font-family: verdana;}
-.no-padding {padding-right: 0 !important;  padding-left: 0 !important;}
+.container-fluid{padding-right: 0; padding-left: 0;}
 a{text-decoration: none;}
 h1{font-family: 'Croissant One', cursive;}
 h5{margin-top: 4%;}
